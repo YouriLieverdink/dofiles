@@ -8,6 +8,6 @@ xcode-select --install
 brew bundle --file ~/.dot-files/Brewfile
 
 # Symlinks
-ln -sf ~/.dot-files/system/zshrc ~/.zshrc
+ln -sf ~/.dot-files/system/.zshrc ~/.zshrc
 ln -sf ~/.dot-files/config/git/.gitconfig ~/.gitconfig
 ln -sf ~/.dot-files/config/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
