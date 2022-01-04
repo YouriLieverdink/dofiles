@@ -9,11 +9,7 @@ xcode-select --install
 2. Clone repo into new hidden directory.
 
 ```zsh
-# Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dot-files
-
-# ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dot-files
+git clone https://github.com/YouriLieverdink/Dotfiles.git ~/.dot-files
 ```
 
 3. Install Homebrew, followed by the software listed in the Brewfile.
@@ -30,7 +26,7 @@ brew bundle --file ~/.dot-files/Brewfile
 
 ```zsh
 rm ~/.zshrc
-ln -s ./.zshrc ~/.zshrc
+ln -s ~/.zshrc ~/.zshrc
 
 ln -s .gitconfig ~/.gitconfig
 
