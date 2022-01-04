@@ -10,10 +10,10 @@ xcode-select --install
 
 ```zsh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/Repositories/dot-files
+git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dot-files
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/Repositires/dot-files
+git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dot-files
 ```
 
 3. Install Homebrew, followed by the software listed in the Brewfile.
@@ -23,7 +23,7 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/Repos
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Then pass in the Brewfile location...
-brew bundle --file ~/Repositories/dot-files/Brewfile
+brew bundle --file ~/.dot-files/Brewfile
 ```
 
 4. Create symlinks in the Home directory to the real files in the repo.
@@ -35,5 +35,5 @@ ln -s ./.zshrc ~/.zshrc
 ln -s .gitconfig ~/.gitconfig
 
 rm ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/Repositories/dot-files/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/.dot-files/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
