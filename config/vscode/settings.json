@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "workbench.startupEditor": "none",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -8,6 +8,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  "explorer.compactFolders": false,
 
   // Language specific rules
   "[dart]": {
@@ -20,6 +21,13 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.rulers": [80],
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     }
