@@ -2,3 +2,5 @@
 	name = Youri Lieverdink
 	email = 89806453+YouriLieverdink@users.noreply.github.com
 
+[commit]
+	template = /Users/iruoy/.dot-files/config/git/.gitmessage.txt
