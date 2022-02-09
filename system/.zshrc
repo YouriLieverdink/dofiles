@@ -1,5 +1,5 @@
 # Shortcuts
-alias reload="source ~/.bash_profile"
+alias reload="source ~/.zshrc"
 alias _="sudo"
 
 # Directories
